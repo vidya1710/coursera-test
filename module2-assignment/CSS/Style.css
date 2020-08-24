@@ -15,19 +15,19 @@ h1 {
 section.Harry {
     font-family: "Comics Sans Ms", cursive, sans-serif;
     background-color: #FDFD95;
-    border: 2px solid black;
+    border: 1px solid black;
     margin: 10px;
 }
 section.Hermoine {
     font-family: "Comics Sans Ms", cursive, sans-serif;
     background-color: #799FCB;
-    border: 2px solid black;
+    border: 1px solid black;
     margin: 10px;
 }
 section.Ron {
     font-family: "Comics Sans Ms", cursive, sans-serif;
     background-color: #7DCFB6;
-    border: 2px solid black;
+    border: 1px solid black;
     margin: 10px;
 }
 
@@ -40,8 +40,8 @@ section>h2 {
     font-size: 24px;
     font-weight: bold;
     height: 45px;
-    border-bottom: 2px solid black;
-    border-left: 2px solid black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
     padding-top: 10px;
 }
 
