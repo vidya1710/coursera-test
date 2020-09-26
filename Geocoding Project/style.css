@@ -1,0 +1,63 @@
+html, body, #map-canvas {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+
+body {
+    background-color: #F6F2EC;
+    background-image: url("LOCO PEDIA.png");
+    /* Full height */
+    height: 10%
+    /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+#map-canvas {
+	height: 75%;
+	width: 75%;
+	margin-left: 200px;
+	margin-top: 10px;
+}
+
+#add {
+	padding: 20px 10px;
+	display: inline-block;
+	font-size: 1.5em;
+	text-align: center;
+	font-family: "Comics Sans Ms", cursive, sans-serif;
+	margin-left: 190px;
+	margin-top: 210px;
+}
+#lat {
+	padding: 20px 10px;
+	display: inline-block;
+	font-size: 1.5em;
+	text-align: center;
+	font-family: "Comics Sans Ms", cursive, sans-serif;
+    margin-left: 190px;
+
+}
+#long {
+	padding: 20px 10px;
+	display: inline-block;
+	font-size: 1.5em;
+	text-align: center;
+	font-family: "Comics Sans Ms", cursive, sans-serif;
+}
+#city {
+	padding: 20px 10px;
+	display: inline-block;
+	font-size: 1.5em;
+	text-align: center;
+	font-family: "Comics Sans Ms", cursive, sans-serif;
+}
+
+input {
+	font-size: 0.75em;
+	padding: 10px;
+}
