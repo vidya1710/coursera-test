@@ -27,6 +27,7 @@ assignment.
 WARNING!!! WARNING!!!
 */
 
+<<<<<<< HEAD
 
 (function () {
 
@@ -47,3 +48,16 @@ for (var i = 0; i < names.length; i++) {
 
 
 
+=======
+(function() {
+    var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
+    for (var i = 0; i < names.length; i++) {
+        var firstLetter = names[i].charAt(0).toLowerCase();
+        if (firstLetter === 'j') {
+            byeSpeaker.speak(names[i]);
+        } else {
+            helloSpeaker.speak(names[i]);
+        }
+    }
+})();
+>>>>>>> d7cf64838007fbf18601717db6fc8eaae67eb5bd

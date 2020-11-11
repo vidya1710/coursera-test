@@ -24,6 +24,7 @@
 
 
 (function(window) {
+<<<<<<< HEAD:module4-assignment/SpeakGoodBye.js
 	var speakWord = "Good Bye";
 	var byeSpeaker = function (name) {
   		console.log(speakWord + " " + name);
@@ -31,4 +32,12 @@
 	
 	window.byeSpeaker = byeSpeaker;
 
+=======
+    var byeSpeaker = new Object();
+    var speakWord = "Good Bye";
+    byeSpeaker.speak = function speak(name) {
+        console.log(speakWord + " " + name);
+    };
+    window.byeSpeaker = byeSpeaker;
+>>>>>>> d7cf64838007fbf18601717db6fc8eaae67eb5bd:module4-assignment/SpeakerGoodBye.js
 })(window);
